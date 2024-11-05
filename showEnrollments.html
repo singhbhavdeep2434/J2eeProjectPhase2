@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show All Enrollments</title>
+    <link rel="stylesheet" href="showEnrollments.css">
+</head>
+<body>
+    <div class="enrollment-container">
+        <h2>All Enrollments</h2>
+        <table id="enrollmentTable">
+            <thead>
+                <tr>
+                    <th>Enrollment ID</th>
+                    <th>Student Username</th>
+                    <th>Course Code</th>
+                    <th>Course Name</th>
+                    <th>Department</th>
+                    <th>Semester</th>
+                    <th>Credits</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody id="enrollmentTableBody">
+                <!-- Data will be populated here dynamically -->
+            </tbody>
+        </table>
+        <p id="errorMessage" class="error-message" style="display: none;">Error fetching enrollments. Please try again later.</p>
+    </div>
+    <script src="showEnrollments.js"></script>
+</body>
+</html>

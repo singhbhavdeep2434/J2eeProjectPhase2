@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Courses</title>
+    <link rel="stylesheet" href="showCourses.css">
+</head>
+<body>
+    <div class="course-container">
+        <h2>All Courses</h2>
+        <table id="coursesTable">
+            <thead>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Course Name</th>
+                    <th>Department</th>
+                    <th>Semester</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be populated here -->
+            </tbody>
+        </table>
+        <p id="errorMessage" class="error-message" style="display: none;">Error fetching courses. Please try again.</p>
+    </div>
+
+    <script src="showCourses.js"></script>
+</body>
+</html>
